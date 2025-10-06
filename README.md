@@ -61,6 +61,8 @@ PyTorch, Streamlit, scikit-learn, pandas
 **Model**
 
 Architecture: 78 → 256 → 128 → 64 → 15 classes
+
 Dataset: CICIDS2017 (2.8M flows)
+
 Accuracy: 98.67% | Precision: 98.45% | Recall: 98.34%
 
