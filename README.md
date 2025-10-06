@@ -31,14 +31,6 @@ Heartbleed vulnerability exploitation
 **Customizable Thresholds**: Adjust detection sensitivity in real-time
 **Export Capabilities**: Download incident logs as CSV files
 
-**Quick Start**
-
-bash# Setup
-git clone https://github.com/yourusername/ai-ngfw.git
-cd ai-ngfw
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
 
 **Dataset**
 
@@ -53,12 +45,17 @@ Size: ~2GB (CSV format)
 # Run pipeline
 
 python preprocess.py      # 10-30 min
+
 python train_model.py     # 30-90 min (CPU)
-streamlit run app.py      # Open http://localhost:8501
+
+streamlit run app.py
+
 Requirements
 
 Python 3.8+
+
 4GB RAM minimum
+
 PyTorch, Streamlit, scikit-learn, pandas
 
 **Model**
